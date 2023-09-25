@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Node.js on Azure Template</title>
+    <meta charset="UTF-8">
+    <title>DiceRoll</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="myScript.js"></script>
 </head>
-<body>
-	<h1>Node.js and Express Hosted on Microsoft Azure Template</h1>
-	<p>This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft 
-	Azure.</p>
+<body onload="roll()">
+<h1>DiceRoll</h1>
+<p>Press the Roll button to roll the 5 dice to see what you get or press the [ENTER] key on your keyboard to roll them again!</p>
+<button onclick="roll()" id="btn1" autofocus>Roll!</button>
+
 </body>
 </html>
